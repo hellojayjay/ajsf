@@ -1,10 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { CommonModule } from '@angular/common';
-import {
-  JsonSchemaFormModule,
-  WidgetLibraryModule
-} from '@ajsf/core';
 import { MaterialDesignFrameworkComponent } from './material-design-framework.component';
+import { JsonSchemaFormModule } from 'projects/ajsf-core/src/lib/json-schema-form.module';
+import { WidgetLibraryModule } from 'projects/ajsf-core/src/lib/widget-library/widget-library.module';
 
 describe('FwBootstrap4Component', () => {
   let component: MaterialDesignFrameworkComponent;
